@@ -24,7 +24,6 @@ int main()
 	MyString string2  = "string2";
 	std::cout << string2.c_str() << std::endl;
 
-	std::cout << "kjin - before string_joint" << std::endl;
 	MyString string_joint (string1 + string2);
 	std::cout << "string_joint = " << string_joint.c_str() << std::endl;
 	std::cout << "string1 = " << string1.c_str() << std::endl;
