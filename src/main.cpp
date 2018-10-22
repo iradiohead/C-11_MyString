@@ -1,7 +1,7 @@
 #include <iostream>
 #include <MyString/MyString.h>
 
-
+/*
 int test(const int &a)
 {
 	std::cout << "const int &" << std::endl;
@@ -13,6 +13,8 @@ int test(int&& a)
 	std::cout << " int &&" << std::endl;
 	return 0;
 }
+*/
+
 
 int main() 
 {
