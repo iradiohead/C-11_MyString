@@ -13,7 +13,7 @@ add_executable(${MODULE_NAME}
 )
 
 target_link_libraries(${MODULE_NAME}
-	MyString
+	MyString_lib
 )
 
 #add_subdirectory(test)
