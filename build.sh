@@ -9,6 +9,6 @@ mkdir -p build
 cd build
 cmake -DCMAKE_BUILD_TYPE=ON -DBUILD_TESTS=ON .. && make
 #make test
-make string
+make String
 cd ..
 #codecov -t 6cab29fe-1861-468f-903e-61e4fc96107e -X gcov
