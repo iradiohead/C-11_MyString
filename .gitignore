@@ -1,3 +1,10 @@
+#kjin add
+cmake-build-debug
+.vs
+.idea
+build
+
+
 # Prerequisites
 *.d
 
