@@ -10,6 +10,7 @@ namespace customized_string
 	}*/
 
 	MyString::MyString(const char *str) {
+		std::cout << "kjin - MyString(const char *str)" << std::endl;
 		copy_str(str);
 	}
 
@@ -33,7 +34,6 @@ namespace customized_string
 		reset();
 	}
 
-	//Data management
 	const char* MyString::copy_str(const char * str) {
 		if (str) {
 			size_t length = strnlen(str, customized_string::MyString::MAX_LENGTH);
@@ -112,7 +112,6 @@ namespace customized_string
 	}
 
 	//Utilities
-
 	const char& MyString::front() const {
 		return _str[0];
 	}

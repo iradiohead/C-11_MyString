@@ -5,11 +5,7 @@ set(MODULE_NAME_LIB MyStringLib)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#include_directories(../include)
-
-
 set(SOURCE_FILES MyString/MyString.cpp)
-
 
 add_library(${MODULE_NAME_LIB} STATIC ${SOURCE_FILES})
 add_library(MyString_lib ALIAS ${MODULE_NAME_LIB})

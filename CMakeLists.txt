@@ -16,4 +16,4 @@ target_link_libraries(${MODULE_NAME}
 	MyString_lib
 )
 
-add_subdirectory(test)
+#add_subdirectory(test)
