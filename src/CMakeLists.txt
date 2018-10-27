@@ -9,4 +9,3 @@ set(SOURCE_FILES MyString/MyString.cpp)
 
 add_library(${MODULE_NAME_LIB} STATIC ${SOURCE_FILES})
 add_library(MyString_lib ALIAS ${MODULE_NAME_LIB})
-#add_executable(MyString ${SOURCE_FILES})
