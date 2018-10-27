@@ -41,7 +41,7 @@ public:
     inline bool empty() const { return !(_str_len); };
     const char& front() const;
     const char& back() const;
-
+    int test_for_cov(int a){return a;}
 private:
     char * _str = nullptr;
     size_t _str_len = 0;
