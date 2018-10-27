@@ -2,7 +2,7 @@
  [![codecov](https://codecov.io/gh/iradiohead/C-11_MyString/branch/master/graph/badge.svg)](https://codecov.io/gh/iradiohead/C-11_MyString)
 
 
-﻿1:use cmake build system
+1:use cmake build system
  
 2:travis CI system
 https://travis-ci.org/iradiohead/C-11_MyString
@@ -13,7 +13,6 @@ https://travis-ci.org/iradiohead/C-11_MyString
 
 5:codecov
 https://codecov.io/gh/iradiohead/C-11_MyString
-
 
 
 ===================================================
