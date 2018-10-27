@@ -1,11 +1,18 @@
  ![travis](https://travis-ci.org/iradiohead/C-11_MyString.svg?branch=master)
+ [![codecov](https://codecov.io/gh/iradiohead/C-11_MyString/branch/master/graph/badge.svg)](https://codecov.io/gh/iradiohead/C-11_MyString)
 
 
 ﻿1:use cmake build system
+ 
 2:travis CI system
+https://travis-ci.org/iradiohead/C-11_MyString
+
 3:google test for UT
+
 4:github for repo
+
 5:codecov
+https://codecov.io/gh/iradiohead/C-11_MyString
 
 
 
