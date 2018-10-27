@@ -17,6 +17,7 @@ cmake -DCMAKE_BUILD_TYPE=ON -DBUILD_TESTS=ON ..
 
 echo "================make all targets======"
 make
+make Sting_coverage
 
 echo "================run string============"
 ./String
