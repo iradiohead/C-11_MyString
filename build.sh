@@ -19,6 +19,9 @@ echo "================make all targets======"
 make
 make Sting_coverage
 
+echo "===========codecov====================="
+codecov -t 2cb34fa8-76e4-4812-b43e-a98126710016 -X gcov
+
 echo "================run string============"
 ./String
 
