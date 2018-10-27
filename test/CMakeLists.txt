@@ -18,7 +18,7 @@ file(GLOB TEST_FILES ${PROJECT_SOURCE_DIR}/MyString/*.cpp)
 add_executable(unittest_string  unit_tests.cpp ${TEST_FILES})
 target_link_libraries(unittest_string ${GTEST_LIBRARIES} MyString_lib pthread)
 
-#include(CodeCoverage)
+include(CodeCoverage)
 setup_target_for_coverage(tstring_coverage unittest_string coverage)
 
 
