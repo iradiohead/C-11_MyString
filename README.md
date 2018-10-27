@@ -1,3 +1,6 @@
+https://travis-ci.org/iradiohead/C-11_MyString.svg?branch=master
+
+
 ﻿1:use cmake build system
 2:travis CI system
 3:google test for UT
