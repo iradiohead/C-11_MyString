@@ -121,7 +121,6 @@ ENDIF() # NOT CMAKE_BUILD_TYPE STREQUAL "Debug"
 # Optional fourth parameter is passed as arguments to _testrunner
 #   Pass them in list form, e.g.: "-j;2" for -j 2
 FUNCTION(SETUP_TARGET_FOR_COVERAGE _targetname _testrunner _outputname)
-    MESSAGE( WARNING "kjin-1" )
     
     IF(NOT LCOV_PATH)
         MESSAGE(FATAL_ERROR "lcov not found! Aborting...")
@@ -133,10 +132,8 @@ FUNCTION(SETUP_TARGET_FOR_COVERAGE _targetname _testrunner _outputname)
 
     SET(coverage_info "${CMAKE_BINARY_DIR}/${_outputname}.info")
     SET(coverage_cleaned "${coverage_info}.cleaned")
-    MESSAGE( WARNING "kjin-2"${coverage_info} )    
 
     SEPARATE_ARGUMENTS(test_command UNIX_COMMAND "${_testrunner}")
-    MESSAGE( WARNING "kjin-3"${LCOV_PATH} )
     # Setup target
     ADD_CUSTOM_TARGET(${_targetname}
 
