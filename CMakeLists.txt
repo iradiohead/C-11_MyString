@@ -3,7 +3,7 @@ project(MyString)
 set(MODULE_NAME String)
 
 set(CMAKE_CXX_STANDARD 14)
-#set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/.travis/cmake)
+set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/.travis/cmake)
 
 include_directories(include)
 add_subdirectory(src)
