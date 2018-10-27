@@ -1,4 +1,4 @@
- ![travis]（https://travis-ci.org/iradiohead/C-11_MyString.svg?branch=master）
+ ![travis](https://travis-ci.org/iradiohead/C-11_MyString.svg?branch=master)
 
 
 ﻿1:use cmake build system
